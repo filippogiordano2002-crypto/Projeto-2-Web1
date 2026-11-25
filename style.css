@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Anton", sans-serif;
+    background-color: #121212;
+    color: #F5F5F5;
+    background: linear-gradient(160deg, #141010 0%, #2a1040 55%, #141010 100%);
+    background-attachment: fixed;
+    color: #fff;
+    
+}
+
+header {
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    padding: 0 70px;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.esquerda h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.esquerda h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.esquerda h1 a:hover {
+    color: #c8d400;
+}
+
+.esquerda h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.esquerda h1 a:hover {
+    color: #c8d400;
+}
+
+.info {
+    border-left: 2px solid #fff;
+    padding-left: 12px;
+}
+
+.info h2,
+.info p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    transform: rotate(-2deg) scale(1.06);
+}
+
+nav a.compre {
+    background-color: #c8d400;
+    color: #141010;
+    padding: 8px 22px;
+    transform: rotate(-2deg);
+    border-radius: 5px;
+}
+
+nav a.compre:hover {
+    background-color: #e3f000;
+    transform: rotate(-2deg) scale(1.06);
+}
+
+#poster_index {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    min-height: 700px;
+    padding: 40px 70px;
+}
+
+.hero-texto {
+    max-width: 650px;
+}
+
+.hero-texto h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.hero-texto p {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.hero-poster img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.botao_index {
+    display: inline-block;
+    background-color: #c8d400;
+    color: #141010;
+    font-family: "Anton", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 22px 60px;
+    transform: rotate(-2deg);
+    clip-path: polygon(
+    0% 18%, 3% 6%, 12% 12%, 25% 2%, 40% 10%, 55% 0%,
+    70% 8%, 85% 2%, 97% 10%, 100% 30%, 98% 55%, 100% 80%,
+    94% 95%, 80% 90%, 65% 100%, 50% 92%, 35% 100%, 20% 93%,
+    8% 100%, 2% 85%, 0% 60%
+    );
+    transition: transform 0.2s, background-color 0.2s;
+    margin-top: 20px;
+}
+
+.botao_index:hover {
+    background-color: #e3f000;
+    transform: rotate(-2deg) scale(1.06);
+    
+}
+
+.compartilhar {
+    display: inline-block;
+    background-color: #c8d400;
+    color: #141010;
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 45px;
+    transform: rotate(-2deg);
+    clip-path: polygon(
+        0% 18%, 3% 6%, 12% 12%, 25% 2%, 40% 10%, 55% 0%,
+        70% 8%, 85% 2%, 97% 10%, 100% 30%, 98% 55%, 100% 80%,
+        94% 95%, 80% 90%, 65% 100%, 50% 92%, 35% 100%, 20% 93%,
+        8% 100%, 2% 85%, 0% 60%
+    );
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.compartilhar:hover {
+     background-color: #e3f000;
+    transform: rotate(-2deg) scale(1.06);
+}
+
+footer {
+    background-color: #141010;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 2px solid #fff;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+#caixas_navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
+}
+
+.caixa {
+    width: 380px;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.caixa h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.caixa p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.caixa a {
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.caixa-1 {
+    background-color: #141010;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.caixa-1:hover {
+    transform: scale(1.08);
+
+}
+
+.caixa-1 a {
+    color: #ffffff;
+}
+
+.caixa-2 {
+    background: linear-gradient(120deg, #3fc956, #dde014);
+    color: #141010;
+}
+
+.caixa-2:hover {
+    transform: scale(1.08);
+}
+
+.caixa-2 a {
+    color: #141010;
+}
+
+.caixa-3 {
+    background: linear-gradient(120deg, #0bb39f, #35c4e8);
+    color: #141010;
+}
+
+.caixa-3:hover {
+    transform: scale(1.08);
+}
+
+.caixa-3 a {
+    color: #141010;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.logos img {
+    height: 50px;
+    width: auto;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.subnav {
+    position: sticky;
+    top: 95px;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #141010;
+    border-bottom: 1px solid #444;
+}
+
+.subnav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 22px 20px;
+    border-bottom: 4px solid transparent;
+}
+
+.subnav a:hover {
+    color: #c8d400;
+    border-bottom: 4px solid #c8d400;
+}
+
+
+.faixa {
+    width: 100%;
+    scroll-margin-top: 170px;
+}
+
+.faixa-1 {
+    background-color: #141010;
+}
+
+.faixa-2 {
+    background: linear-gradient(120deg, #3fc956, #dde014);
+    color: #141010;
+}
+
+.faixa-3 {
+    background: linear-gradient(120deg, #0bb39f, #35c4e8);
+    color: #141010;
+}
+
+
+.secao {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.secao h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.secao h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #c8d400;
+    margin: 40px 0 15px;
+}
+
+.secao-texto {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.setor {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #141010;
+}
+
+.setor summary {
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.setor ul {
+    padding: 0 25px 25px 55px;
+}
+
+.setor li {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.setor-pista {
+    background-color: #f5f5f5;
+}
+
+.setor-comfort {
+    background-color: #00c4e6;
+}
+
+.setor-cabana {
+    background-color: #ff4d40;
+}
+
+.setor-lounge {
+    background-color: #e8b0e2;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+th {
+    background-color: #c8d400;
+    color: #141010;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+tr:hover td {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+tr.principal td {
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #c8d400;
+}
+
+.faixa-2 h3 {
+    color: #141010;
+}
+
+.faixa-2 th {
+    background-color: #141010;
+    color: #ffffff;
+}
+
+.faixa-2 td {
+    border-bottom: 1px solid #141010;
+}
+
+.faixa-2 tr.principal td {
+    color: #141010;
+}
+
+.faixa-2 tr:hover td {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.cartao {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-top: 10px solid #141010;
+    text-align: left;
+}
+
+.secao .cartao h3 {
+    color: #141010;
+    margin: 0 0 15px;
+}
+
+.cartao p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.botao-escuro {
+    display: inline-block;
+    background-color: #141010;
+    color: #ffffff;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: none;
+    cursor: pointer;
+}
