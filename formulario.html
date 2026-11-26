@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Rock in Yapoatan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="esquerda">
+            <h1><a href="index.html">Rock in Yapoatan</a></h1>
+            <div class="info">
+                <h2>19, 20 e 21 de Março 2027</h2>
+                <p>Jaboatão dos Guararapes - PE</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#" class="compre">Compre aqui</a>
+            <a href="#">Ingressos</a>
+            <a href="programacao.html">Programação</a>
+        </nav>
+    </header>
+
+    <h2 class="titulos">Cadastro de Usuário</h2>
+
+    <form action="index.html" method="get" onsubmit="alert('Cadastro realizado com sucesso!')" class="forms">
+
+        <div>
+            <label for="idNome">Nome:</label>
+            <input type="text" name="nome" id="idNome" required>
+        </div>
+
+        <div>
+            <label>Sexo:</label>
+
+            <div class="sexo">
+                <input type="radio" id="idMasculino" name="sexo" value="masculino">
+                <label for="idMasculino">Masculino</label>
+
+                <input type="radio" id="idFeminino" name="sexo" value="feminino">
+                <label for="idFeminino">Feminino</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="idObs">Observações:</label>
+            <textarea name="observacoes" rows="4" id="idObs"></textarea>
+        </div>
+
+        <div>
+            <label for="idEmail">Email:</label>
+            <input type="email" name="email" id="idEmail" required>
+        </div>
+
+        <div>
+            <label for="idSenha">Senha:</label>
+            <input type="password" name="senha" id="idSenha" required>
+        </div>
+
+        <div>
+            <label for="idConfirm">Confirmar senha:</label>
+            <input type="password" name="confirmar_senha" id="idConfirm" required>
+        </div>
+
+        <div class="botForm">
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

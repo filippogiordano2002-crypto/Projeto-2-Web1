@@ -512,3 +512,106 @@ tr.principal td {
     border: none;
     cursor: pointer;
 }
+
+.titulos {
+    font-family: "Anton", sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    margin: 50px 0 30px;
+}
+
+.forms {
+    max-width: 520px;
+    margin: 0 auto 60px;
+    padding: 35px;
+    background-color: #ffffff;
+    border-top: 10px solid #141010;
+    color: #141010;
+}
+
+.forms div {
+    margin-bottom: 18px;
+}
+
+.forms label {
+    display: block;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.forms input[type="text"],
+.forms input[type="email"],
+.forms input[type="password"],
+.forms textarea {
+    width: 100%;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #141010;
+}
+
+.forms input:focus,
+.forms textarea:focus {
+    outline: 3px solid #c8d400;
+}
+
+.sexo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.forms .sexo label {
+    display: inline;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0 15px 0 0;
+}
+
+.forms input[type="radio"] {
+    accent-color: #141010;
+}
+
+.botForm {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.botForm button {
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+.botForm button[type="submit"] {
+    background-color: #c8d400;
+    color: #141010;
+    border: 2px solid #c8d400;
+}
+
+.botForm button[type="submit"]:hover {
+    background-color: #141010;
+    color: #c8d400;
+}
+
+.botForm button[type="reset"] {
+    background-color: transparent;
+    color: #141010;
+    border: 2px solid #141010;
+}
+
+.botForm button[type="reset"]:hover {
+    background-color: #141010;
+    color: #ffffff;
+}
